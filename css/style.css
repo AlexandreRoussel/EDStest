@@ -1,0 +1,70 @@
+.barre {
+    z-index: 2;
+   display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 35px;
+}
+body{
+    background-color:#fff;
+    font-family: 'Poppins', sans-serif;
+    color: #2d3e50;
+}
+.col-sm-4.mysearch {
+    padding: 10px;
+}
+.mybg{
+    margin: 20px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.thecontent{
+    padding: 10px;
+    height: 250px;
+}
+.audio{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.bloc1 {
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.image{
+     z-index: 2;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.filtres {
+    z-index: 2;
+   display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 35px;
+}
+.myheader{
+    background: rgba(0, 0, 0, 0) url(../images/1.jpg) repeat scroll center center / cover;
+}
+.myinfos{
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease 0s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+.myinfos:hover{
+    color: #d9bf77;
+}
+.myimg{
+    width: 150px;
+    height: 150px;
+}
